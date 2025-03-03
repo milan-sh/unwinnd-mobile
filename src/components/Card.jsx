@@ -9,7 +9,7 @@ const Card = ({heart, className, status, textColor}) => {
     <div className="bg-white p-4 rounded-lg w-full">
                 <div className="flex justify-between items-center">
                   <h4 className={`flex items-center justify-between gap-x-2 font-medium`}>
-                    <span className={`h-2 w-2 rounded-full bg-${className}`}></span><span className={`${textColor}`}>{status}</span>
+                    <span className={`h-2 w-2 rounded-full ${className}`}></span><span className={`${textColor}`}>{status}</span>
                   </h4>
                   <button className="">
                     <img src={heart} alt="favorite" />

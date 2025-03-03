@@ -45,9 +45,9 @@ const work = () => {
         <h2 className="text-gray-500 text-lg font-medium pb-4">Today</h2>
         {/* cards-container */}
         <div className="flex flex-col justify-start items-start gap-y-4">
-          <Card heart={favorite} textColor="text-gray-400" className="gray-400"  status="Completed" />
-          <Card heart={favorite_red} textColor="text-gray-400" className="gray-400" status="Completed" />
-          <Card heart={favorite} textColor="text-red-700" className="red-700" status="Cancelled"/>
+          <Card heart={favorite} textColor="text-gray-400" className="bg-gray-400"  status="Completed" />
+          <Card heart={favorite_red} textColor="text-gray-400" className="bg-gray-400" status="Completed" />
+          <Card heart={favorite} textColor="text-red-700" className="bg-red-700" status="Cancelled"/>
         </div>
       </div>
       {/* Mobile Menu */}
