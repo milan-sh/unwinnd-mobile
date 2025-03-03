@@ -1,0 +1,13 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+:root {
+
+    all: unset;
+
+}
+
+@theme {
+    --primary-color: #7948BB;
+    --color-background: #F9F7FF;
+}
