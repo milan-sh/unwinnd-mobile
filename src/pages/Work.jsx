@@ -7,7 +7,7 @@ const work = () => {
   const [acitveTab, setActiveTab] = useState("Tab2");
 
   return (
-    <div className="font-sans">
+    <div className="font-sans max-w-[28rem] mx-auto">
       <div className="p-4 text-2xl font-medium">
         <h2>Bookings</h2>
       </div>
